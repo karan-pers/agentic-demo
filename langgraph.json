@@ -1,0 +1,12 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "transactions": "./src/agents/transactions/graph.py:graph",
+    "payments": "./src/agents/payments/graph.py:graph",
+    "operations": "./src/agents/operations/graph.py:graph",
+    "knowledge": "./src/agents/knowledge/graph.py:graph",
+    "conversational": "./src/agents/conversational/graph.py:graph"
+  },
+  "env": ".env",
+  "image_distro": "wolfi"
+}
